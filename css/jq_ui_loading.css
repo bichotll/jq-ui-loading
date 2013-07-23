@@ -1,0 +1,30 @@
+#jq_ui_loading_bg{
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../img/ui-bg_diagonals.png');
+    display: none;
+}
+#jq_ui_loading_bg #ui_content{
+    margin: 150px auto;
+    width: 300px;
+    padding: 50px 10px;
+    background-image: url('../img/ajax-loader.gif');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+}
+#jq_ui_loading_bg #ui_content #ui_label1,#jq_ui_loading_bg #ui_content #ui_label2{
+    color: rgba(255,255,255,0.9);
+    font-weight: bold;
+}
+#jq_ui_loading_bg #ui_content #ui_label1{
+    font-size: 50px;
+}
+#jq_ui_loading_bg #ui_content #ui_label2{
+    font-size: 30px;
+    margin-top: 20px;
+}
